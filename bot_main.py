@@ -31,7 +31,7 @@ def writescore():
     with open(r"C:\Users\valer\OneDrive\Рабочий стол\ \Программирование\Python\Проектики\AnoBot\score.txt", "w") as file:
         file.write(str(score))
 
-vk = vk_api.VkApi(token='0707c7c59d5db25b3a306653c9ebc8c5ad9538249eea5f9365a149564886186f92b1d928a666889a76305')
+vk = vk_api.VkApi(token='') #Токен от ВКонтакте.
 longpoll = VkLongPoll(vk)
 print("Сессия запущена.")
 
