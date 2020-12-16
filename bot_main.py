@@ -98,14 +98,6 @@ for event in longpoll.listen():
                 else:
                     write_msg(groupid, "Я тебя не понял 🙁")
 
-            #for i in mat:
-            #    if i in request or i[0].upper() + i[1:] in request:
-            #         angry = True
-            #if angry == True:
-            #    write_msg(groupid, "Ты как посмел, вон отсюда!")
-            #    angry = False
-                
-            
 
             
                 
