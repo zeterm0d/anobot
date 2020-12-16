@@ -10,7 +10,7 @@ current_time = time.strftime("%H:%M:%S", t)
 mat = ['гей','ука','бл','еба','долб','конч']
 listans = {} 
 msg = '📜 Список созданных ответов пользователями:\n '
-token = "6a9c267cd469388709a9e9acaddbe0aa81a0abbf12239b3e597a31729ffbddb9c88e80a443554c918b8f7"
+token = "" #Здесь должен быть токен.
 
 with open(r"C:\Users\valer\OneDrive\Рабочий стол\ \Программирование\Python\Проектики\AnoBot\score.txt", "r") as reader:
     tlines = reader.readlines()
